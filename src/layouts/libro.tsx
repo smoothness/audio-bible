@@ -40,7 +40,7 @@ interface DefaultLayoutProps extends React.HTMLProps<HTMLDivElement> {
   children: any
 }
 
-class DefaultLayout extends React.PureComponent<DefaultLayoutProps, void> {
+class LibroLayout extends React.PureComponent<DefaultLayoutProps, void> {
   public render() {
     return (
       <div>
@@ -67,4 +67,4 @@ class DefaultLayout extends React.PureComponent<DefaultLayoutProps, void> {
   }
 }
 
-export default DefaultLayout
+export default LibroLayout

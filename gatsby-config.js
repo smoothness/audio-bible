@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Typescript Starter`,
+    title: `Biblia en Audios MP3`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

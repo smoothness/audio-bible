@@ -20,13 +20,14 @@ export default class extends React.Component<IndexPageProps, {}> {
   public render() {
     return (
       <div>
-        <h1>Hi people</h1>
+        <h1>Proyecto Final de Sistemas Colaborativos</h1>
+        <h3>Universidad Cenfotec</h3>
         <p>
-          Welcome to your new{' '}
-          <strong>{this.props.data.site.siteMetadata.title}</strong> site.
+          Bienvenido a la{' '}
+          <strong>{this.props.data.site.siteMetadata.title}</strong>, proyecto para el curso de Sistemas Colaborativos de la Universidad Cenfotec.
+          Impartido por el profesor <strong>Raúl Sossa</strong>.
         </p>
-        <p>Now go build something great.</p>
-        <Link to="/page-2/">Go to page 2</Link>
+        <Link to="/contenidos/">Ir al índice:</Link>
       </div>
     )
   }
